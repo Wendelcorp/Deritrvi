@@ -1,0 +1,4 @@
+LIBRARY "Deritrvi"
+EXPORTS
+VSTPluginMain
+main=VSTPluginMain

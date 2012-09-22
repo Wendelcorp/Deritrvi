@@ -1,0 +1,52 @@
+﻿Build started 1/22/2012 5:22:07 AM.
+     1>Project "C:\Documents and Settings\phillip\My Documents\DeritrviVST\Deritrvi\Deritrvi\deritrvi.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\deritrvi.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\vstsdk2.4 /I..\..\vstsdk2.4\public.sdk\source\vst2.x /I..\..\vstsdk2.4\vstgui.sf\vstgui /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WINDOWS /D _WINDOWS /D WIN32 /D _DEBUG /D _USRDLL /D _USE_MATH_DEFINES /D USE_LIBPNG=0 /D VIBRATO_EXPORTS /D _CRT_SECURE_NO_DEPRECATE=1 /D VST_FORCE_DEPRECATED=0 /D _WINDLL /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\vstsdk2.4\public.sdk\source\vst2.x\audioeffect.cpp ..\..\vstsdk2.4\public.sdk\source\vst2.x\audioeffectx.cpp ..\..\vstsdk2.4\public.sdk\source\vst2.x\vstplugmain.cpp ..\..\vstsdk2.4\vstgui.sf\vstgui\aeffguieditor.cpp ..\..\vstsdk2.4\vstgui.sf\vstgui\vstcontrols.cpp ..\..\vstsdk2.4\vstgui.sf\vstgui\vstgui.cpp deritrvi.cpp deritrvieditor.cpp deritrvimain.cpp
+         audioeffect.cpp
+         audioeffectx.cpp
+         vstplugmain.cpp
+         aeffguieditor.cpp
+         vstcontrols.cpp
+         vstgui.cpp
+         deritrvi.cpp
+     1>deritrvi.cpp(98): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>deritrvi.cpp(179): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>deritrvi.cpp(217): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>deritrvi.cpp(316): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>deritrvi.cpp(317): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>deritrvi.cpp(351): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>deritrvi.cpp(357): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>deritrvi.cpp(361): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>deritrvi.cpp(383): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>deritrvi.cpp(384): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         deritrvieditor.cpp
+         deritrvimain.cpp
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Release\deritrvi.res" deritrvi.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Documents and Settings\phillip\My Documents\DeritrviVST\Deritrvi\Deritrvi\Release\deritrvi.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"vibrato.def" /MANIFEST /ManifestFile:"Release\deritrvi.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Documents and Settings\phillip\My Documents\DeritrviVST\Deritrvi\Deritrvi\Release\deritrvi.pdb" /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Documents and Settings\phillip\My Documents\DeritrviVST\Deritrvi\Deritrvi\Release\deritrvi.lib" /MACHINE:X86 /DLL Release\deritrvi.res
+         Release\audioeffect.obj
+         Release\audioeffectx.obj
+         Release\vstplugmain.obj
+         Release\aeffguieditor.obj
+         Release\vstcontrols.obj
+         Release\vstgui.obj
+         Release\deritrvi.obj
+         Release\deritrvieditor.obj
+         Release\deritrvimain.obj
+            Creating library C:\Documents and Settings\phillip\My Documents\DeritrviVST\Deritrvi\Deritrvi\Release\deritrvi.lib and object C:\Documents and Settings\phillip\My Documents\DeritrviVST\Deritrvi\Deritrvi\Release\deritrvi.exp
+         Generating code
+         Finished generating code
+         deritrvi.vcxproj -> C:\Documents and Settings\phillip\My Documents\DeritrviVST\Deritrvi\Deritrvi\Release\deritrvi.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Documents and Settings\phillip\My Documents\DeritrviVST\Deritrvi\Deritrvi\Release\deritrvi.dll;#2" /manifest Release\deritrvi.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\deritrvi.unsuccessfulbuild".
+         Touching "Release\deritrvi.lastbuildstate".
+     1>Done Building Project "C:\Documents and Settings\phillip\My Documents\DeritrviVST\Deritrvi\Deritrvi\deritrvi.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.48

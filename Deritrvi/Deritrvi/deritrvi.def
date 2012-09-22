@@ -1,0 +1,4 @@
+LIBRARY "y4684134"
+EXPORTS
+VSTPluginMain
+main=VSTPluginMain
